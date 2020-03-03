@@ -49,7 +49,7 @@ Employee
 +updatePhone(number: string)
 ```
 
-## Relationships
+# Relationships
 ### Inheritance
   - Definition:
     - An object can have an inherited structure such as a tortoise is an animal, and a zebra is an animal. We can create UML classes for the `Tortoise` and the `Zebra` and that both inherit from `Animal`
@@ -87,3 +87,12 @@ Employee
     - `class A must have a class B`
   - Example
     - `Person must have a Head` or `Person<X>--Head`
+
+# Multiplicity
+- `0..0` - 	0	Collection must be empty
+- `0..1` - 		No instances or one instance
+- `1..1` - 	1	Exactly one instance
+- `0..*` - 	*	Zero or more instances
+- `1..*` - 		At least one instance
+- `5..5` - 	5	Exactly 5 instances
+- `m..n` - 		At least m but no more than n instances
