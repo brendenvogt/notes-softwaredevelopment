@@ -1,6 +1,6 @@
 # UML Notes
 UML or the (Unified Modelling Language) is the a way to structure object data types
-## Components 
+# Components 
 - Class (Top entry of the UML Diagram)
   - the type or class of the object.
 - Attributes (Middle section of the UML Diagram)
@@ -20,7 +20,7 @@ UML or the (Unified Modelling Language) is the a way to structure object data ty
   - Examples:
     - `-setName()`
     - `-eat()`
-## Visibility
+# Visibility
 `-` is private (only same class)
 `+` is public (access by any other class)
 `#` is protected (same class or its subclasses)
